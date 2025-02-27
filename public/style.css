@@ -1,0 +1,41 @@
+#footer{
+    margin-top: auto; 
+    position:relative;
+    bottom: 0; 
+    width: 100%;
+}
+
+#texto-principal{
+    color:white;
+    width: 50%;
+    height: 50%; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    border-radius: 10px; 
+    padding: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .test{
+        display: none;
+    }
+
+    #texto-principal{
+        width:90%;
+        font-size:large;
+    }
+
+    #carritostyle{
+        margin: auto;
+    }
+
+  
+}
+
+
+
