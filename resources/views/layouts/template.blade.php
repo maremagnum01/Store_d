@@ -57,10 +57,7 @@
                                 <li class="list-group-item">
                                     <div class="row">
                                         <div class="col-lg-3">
-                                        <!-- <img src="{{ Storage::url($item['img']) }}"
-                                                style="width: 50px; height: 50px;"
-                                            > -->
-                                            <img src="{{  secure_asset($item['img']) }}"
+                                        <img src="{{ Storage::url($item['img']) }}"
                                                 style="width: 50px; height: 50px;"
                                             >
                                         </div>
