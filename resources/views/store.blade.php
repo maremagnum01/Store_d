@@ -18,7 +18,8 @@
             @foreach ($stocks as $stock)
                 <div class='col-4 d-flex justify-content-evenly' style="margin-top: 20px; margin-bottom: 20px">
                         <div class="" style="width: 18rem;">
-                            <img src="{{ Storage::url($stock['img']) }}" class="card-img-top" style="object-fit:contain; height: 300px" alt="...">
+                            <!-- <img src="{{ Storage::url($stock['img']) }}" class="card-img-top" style="object-fit:contain; height: 300px" alt="..."> -->
+                            <img src="{{  secure_asset($stock['img']) }}" class="card-img-top" style="object-fit:contain; height: 300px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $stock->marca }} {{ $stock->modelo }}</h5>
                                 <span>{{ $stock->color }}, {{ $stock->memoria }}</span>
